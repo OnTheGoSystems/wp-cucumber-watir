@@ -1,0 +1,14 @@
+www
+.idea
+Gemfile.lock
+*.swp
+*.swo
+*.iml
+installer/files/data
+config/nginx/sites-enabled/*.dev
+/.cache
+/watir/
+results.html
+tmp
+/results
+config.yml
