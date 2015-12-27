@@ -1,0 +1,2 @@
+default: -r features --tags @basic --tags ~@edge-case --color --format pretty --format html -o results.html --format junit -o results
+all: -r features --color --format pretty --format html -o results.html --format junit -o results
