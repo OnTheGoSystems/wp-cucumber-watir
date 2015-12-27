@@ -26,6 +26,12 @@ module WpWorldHelpers
     end
   end
 
+  def visit_front_page(&block)
+    visit_on_blog(FrontPage,
+                  { uri: '' },
+                  block)
+  end
+
   def text_to_uid(user_identifier)
     instance_var_name = "@#{user_identifier}"
     saved_data = if instance_variable_defined?(instance_var_name)

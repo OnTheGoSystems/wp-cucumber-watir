@@ -3,5 +3,5 @@
 Feature: Install WordPress
   Install a clean WordPress setup.
 
-  Background: Activate the Plugin and install it
+  Scenario:
     Given a clean WordPress installation

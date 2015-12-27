@@ -11,7 +11,6 @@ RUN echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen \
 
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 RUN apt-get update && apt-get install -y unzip rsync
-RUN chmod 400 /root/.ssh/*
 RUN mkdir -p /repos
 WORKDIR /repos
 RUN mkdir -p /www
